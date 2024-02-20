@@ -66,3 +66,5 @@ const random = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
     ex.:
     //if obj = {a:1,b:2,c:3} and wants to remove "b" , function expect to return ==> { a: 1, c: 3 }
  */
+
+module.exports={capitalizeTextFirstChar, createArray, random}
